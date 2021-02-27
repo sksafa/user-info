@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.navbar{
+    background-color: #273c75;
+    text-align: center;
+    padding: 30px 0;
+    color: #fff;
+
+}
+.original{
+    display: flex;
+    
+}
+.SalarySide{
+    background-color: #546de5;
+    height: 100vh;
+    width: 25%;
+}
+.userSide{
+    width: 75%;
+    background-color: #192a56;;
+    display: flex;
+    flex-wrap: wrap;
+}
+.imgSection img{
+    width: 150px;
+    height: 151px;
+    border-radius: 9px;
+}
+
+
+.userInfo{
+    background-color: #fff;
+    margin: 10px 7px 20px 10px;
+    padding: 11px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px #000;
+    display: flex;
+    width: 426px;
+}
+.infoSection{
+    margin-left: 12px;
+    width: 258px;
+    font-size: 19px;
+    font-weight: 400;
+}
+
+.infoSection button{
+    padding: 8px 17px;
+    margin-top: 19px;
+    background: #00a8ff;
+    border: 1px solid #054d77dd;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.salaryCart{
+    background: #fff;
+    padding: 21px;
+    width: 219px;
+    height: 127px;
+    margin: 0 auto;
+    margin-top: 12px;
+    border-radius: 10px;
+    box-shadow: 4px 5px 5px #000;
+}
